@@ -1,0 +1,80 @@
+/*" Allgemein "*/
+
+body {
+    background: #fff;
+    line-height: 0;
+    }
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    }
+    
+.wrapper {
+    position: relative;
+    width: 64px;
+    height: 12px;
+    margin: 100px auto 0 auto;
+    }
+    
+.loading {
+    position: relative;
+    height: 8px;
+    width: 8px;
+    border: 2px solid rgb(180,180,180);
+    background: rgb(200,200,200);
+    border-radius: 2px;
+    -webkit-animation-name: button;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    }
+    
+@-webkit-keyframes 'button'
+    {       
+    
+    0% {
+        left: 0;  
+        opacity: 0;
+        }
+        
+    6% {
+        opacity: 1.0;
+        }
+    
+    12% {
+        left: 16px;
+        opacity: 1.0;
+        }
+    
+    80% {
+        opacity: 1.0;
+        }
+    
+    100% {
+        opacity: 0;
+        left: 32px;
+    }
+}
+    
+@-webkit-keyframes button_dis {
+    
+    0% {
+        left: 0;
+        }
+        
+    40% {
+        left: 16px;
+        }
+        
+    80% {
+        opacity: 1.0;
+        }
+    
+    100% {
+        left: 32px;
+        opacity: 0.0;
+        }
+
+    }

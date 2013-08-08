@@ -1,0 +1,139 @@
+body {
+	background: url(background.jpg) #bbb;
+	background-size: 100%;
+	color: rgba(0,0,0,0.4);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+#timer {
+	margin: 128px auto 0 auto; /* 1. zahl ist der abstand nach oben */
+	width: 896px;
+	height: 320px;
+}
+
+@keyframes zoom {
+
+	0% {
+		opacity: 0;
+		transform: scale(1.1);
+	}
+
+	100% {
+		opacity: none;
+		transform: none;
+	}
+
+}
+
+@-webkit-keyframes zoom {
+
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(1.1);
+	}
+	
+	100% {
+		opacity: none;
+		-webkit-transform: none;
+	}
+
+}
+
+@-moz-keyframes zoom {
+
+	0% {
+		opacity: 0;
+		-moz-transform: scale(1.1);
+	}
+
+	100% {
+		opacity: none;
+		-moz-transform: none;
+	}
+
+}
+
+@-o-keyframes zoom {
+
+	0% {
+		opacity: 0;
+		-o-transform: scale(1.1);
+	}
+
+	100% {
+		opacity: none;
+		-o-transform: none;
+	}
+
+}
+
+#timer div.layer {
+	background: rgba(255,255,255,0.3);
+	padding: 32px;
+	animation: zoom 1s ease 1s 1 normal backwards;
+	-webkit-animation: zoom 1s ease 1s 1 normal backwards;
+	-moz-animation: zoom 1s ease 1s 1 normal backwards;
+	-o-animation: zoom 1s ease 1s 1 normal backwards;
+}
+
+#timer div.layer {
+	width: 896px;
+	height: 320px;
+}
+
+#timer div.layer div.layer {
+	width: 832px;
+	height: 256px;
+}
+
+#timer div.layer div.layer div.layer {
+	width: 768px;
+	height: 192px;
+}
+
+#timer div.layer div.layer div.layer div.layer {
+	width: 704px;
+	height: 128px;
+}
+
+#timer p {
+	width: 128px;
+	height: 128px;
+	display: block;
+	float: left;
+	margin-right: 64px;
+}
+
+#timer p.seconds {
+	margin-right: 0;
+}
+
+#timer p .number {
+	width: 128px;
+	font: normal 96px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	line-height: 96px;
+	text-align: center;
+	display: block;
+}
+
+#timer p .unit {
+	width: 128px;
+	font: normal 16px "Lucida Grande", "Lucida Sans Unicode", Geneva, sans-serif;
+	line-height: 32px;
+	text-align: center;
+	display: block;
+}
+
+footer {
+	position: absolute;
+	right: 16px;
+	bottom: 16px;
+	font: normal 11px "Lucida Grande", "Lucida Sans Unicode", Geneva, sans-serif;
+	line-height: 11px;
+	color: rgba(255,255,255,0.5);
+}

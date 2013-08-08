@@ -1,0 +1,419 @@
+/*" Loading "*/
+
+.loading {
+    position: relative;
+    margin: 150px auto 0 auto;
+    height: 66px;
+    width: 66px;
+    }
+    
+.loading .element {
+    position: absolute;
+    height: 18px;
+    width: 6px;
+    background: #000;
+    opacity: 0.1;
+    border-radius: 3px;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    }
+
+/* right top */
+
+.loading .right-top-1 {
+    -webkit-transform: rotate(0deg);
+    left: 30px;
+    top: 0px;
+    -webkit-animation-name: right-top-1;
+    }
+    
+@-webkit-keyframes right-top-1 {
+    
+    0% {
+        opacity: 0.1;
+        }
+    
+    1% {
+        opacity: 0.8;
+        }
+        
+    26% {
+        opacity: 0.1;
+        }
+    
+    100% {
+        opacity: 0.1;
+        }
+
+    }
+    
+.loading .right-top-2 {
+    -webkit-transform: rotate(30deg);
+    left: 43px;
+    top: 3px;
+    -webkit-animation-name: right-top-2;
+    }
+    
+@-webkit-keyframes right-top-2 {
+    
+    0% {
+        opacity: 0.1;
+        }
+    
+    8% {
+        opacity: 0.1;
+        }
+    
+    9% {
+        opacity: 0.8;
+        }
+        
+    34% {
+        opacity: 0.1;
+        }
+    
+    100% {
+        opacity: 0.1;
+        }
+
+    }
+    
+.loading .right-top-3 {
+    -webkit-transform: rotate(60deg);
+    left: 52px;
+    top: 13px;
+    -webkit-animation-name: right-top-3;
+    }
+    
+@-webkit-keyframes right-top-3 {
+    
+    0% {
+        opacity: 0.1;
+        }
+    
+    16% {
+        opacity: 0.1;
+        }
+    
+    17% {
+        opacity: 0.8;
+        }
+        
+    42% {
+        opacity: 0.1;
+        }
+    
+    100% {
+        opacity: 0.1;
+        }
+
+    }
+    
+/* right bottom */
+
+.loading .right-bottom-1 {
+    -webkit-transform: rotate(90deg);
+    left: 55px;
+    top: 25px;
+    -webkit-animation-name: right-bottom-1;
+    }
+    
+@-webkit-keyframes right-bottom-1 {
+    
+    0% {
+        opacity: 0.1;
+        }
+    
+    25% {
+        opacity: 0.1;
+        }
+    
+    26% {
+        opacity: 0.8;
+        }
+        
+    50% {
+        opacity: 0.1;
+        }
+    
+    100% {
+        opacity: 0.1;
+        }
+
+    }
+    
+.loading .right-bottom-2 {
+    -webkit-transform: rotate(120deg);
+    left: 52px;
+    top: 37px;
+    -webkit-animation-name: right-bottom-2;
+    }
+    
+@-webkit-keyframes right-bottom-2 {
+    
+    0% {
+        opacity: 0.1;
+        }
+    
+    33% {
+        opacity: 0.1;
+        }
+    
+    34% {
+        opacity: 0.8;
+        }
+        
+    58% {
+        opacity: 0.1;
+        }
+    
+    100% {
+        opacity: 0.1;
+        }
+
+    }
+    
+.loading .right-bottom-3 {
+    -webkit-transform: rotate(150deg);
+    left: 43px;
+    top: 46px;
+    -webkit-animation-name: right-bottom-3;
+    }
+    
+@-webkit-keyframes right-bottom-3 {
+    
+    0% {
+        opacity: 0.1;
+        }
+    
+    41% {
+        opacity: 0.1;
+        }
+    
+    42% {
+        opacity: 0.8;
+        }
+        
+    66% {
+        opacity: 0.1;
+        }
+    
+    100% {
+        opacity: 0.1;
+        }
+
+    }
+    
+/* left bottom */
+
+.loading .left-bottom-1 {
+    -webkit-transform: rotate(180deg);
+    left: 30px;
+    top: 49px;
+    -webkit-animation-name: left-bottom-1;
+    }
+    
+@-webkit-keyframes left-bottom-1 {
+    
+    0% {
+        opacity: 0.1;
+        }
+    
+    50% {
+        opacity: 0.1;
+        }
+    
+    51% {
+        opacity: 0.8;
+        }
+        
+    74% {
+        opacity: 0.1;
+        }
+    
+    100% {
+        opacity: 0.1;
+        }
+
+    }
+    
+.loading .left-bottom-2 {
+    -webkit-transform: rotate(210deg);
+    left: 17px;
+    top: 46px;
+    -webkit-animation-name: left-bottom-2;
+    }
+    
+@-webkit-keyframes left-bottom-2 {
+    
+    0% {
+        opacity: 0.1;
+        }
+    
+    58% {
+        opacity: 0.1;
+        }
+    
+    59% {
+        opacity: 0.8;
+        }
+        
+    82% {
+        opacity: 0.1;
+        }
+    
+    100% {
+        opacity: 0.1;
+        }
+
+    }
+    
+.loading .left-bottom-3 {
+    -webkit-transform: rotate(240deg);
+    left: 8px;
+    top: 37px;
+    -webkit-animation-name: left-bottom-3;
+    }
+    
+@-webkit-keyframes left-bottom-3 {
+    
+    0% {
+        opacity: 0.1;
+        }
+    
+    66% {
+        opacity: 0.1;
+        }
+    
+    67% {
+        opacity: 0.8;
+        }
+        
+    91% {
+        opacity: 0.1;
+        }
+    
+    100% {
+        opacity: 0.1;
+        }
+
+    }
+    
+/* left top */
+
+.loading .left-top-1 {
+    -webkit-transform: rotate(270deg);
+    left: 5px;
+    top: 25px;
+    -webkit-animation-name: left-top-1;
+    }
+    
+@-webkit-keyframes left-top-1 {
+    
+    0% {
+        opacity: 0.1;
+        }
+    
+    74% {
+        opacity: 0.1;
+        }
+    
+    75% {
+        opacity: 0.8;
+        }
+        
+    99% {
+        opacity: 0.1;
+        }
+    
+    100% {
+        opacity: 0.1;
+        }
+
+    }
+    
+.loading .left-top-2 {
+    -webkit-transform: rotate(300deg);
+    left: 8px;
+    top: 13px;
+    -webkit-animation-name: left-top-2;
+    }
+    
+@-webkit-keyframes left-top-2 {
+    
+    0% {
+        opacity: 0.1;
+        }
+    
+    82% {
+        opacity: 0.1;
+        }
+    
+    83% {
+        opacity: 0.8;
+        }
+    
+    100% {
+        opacity: 0.1;
+        }
+
+    }
+    
+.loading .left-top-3 {
+    -webkit-transform: rotate(330deg);
+    left: 17px;
+    top: 3px;
+    -webkit-animation-name: left-top-3;
+    }
+    
+@-webkit-keyframes left-top-3 {
+    
+    0% {
+        opacity: 0.1;
+        }
+    
+    91% {
+        opacity: 0.1;
+        }
+    
+    92% {
+        opacity: 0.8;
+        }
+    
+    100% {
+        opacity: 0.1;
+        }
+
+    }
+
+
+/*" Standard "*/
+
+body {
+    background: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: Helvetica, sans-serif;
+    color: rgba(85,85,95,1.0);
+    text-shadow: 0 1px #fff;
+    }
+      
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    }
+
+#footer { 
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-shadow: none;
+    font-size: 11px;
+    line-height: 11px;
+    color: rgb(130,130,130);
+    }
+    
+#footer a {
+    color: rgb(130,130,130);
+    }

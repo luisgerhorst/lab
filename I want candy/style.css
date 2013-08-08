@@ -1,0 +1,176 @@
+/*" Custom "*/
+
+@font-face {    
+      font-family: Ribbon;    
+      src: url(ribbon.otf);
+      }
+      
+      
+@-webkit-keyframes color_candy {
+	
+	0% {
+		color: rgb(240,10,10);
+		text-shadow: 0 0 20px rgb(240,10,10);
+	    }
+	
+	17% {
+		color: rgb(240,240,10);
+		text-shadow: 0 0 20px rgb(240,240,10);
+	    }
+	
+	33% {
+		color: rgb(10,240,10);
+		text-shadow: 0 0 20px rgb(10,240,10);
+	    }
+	    
+	50% {
+		color: rgb(10,240,240);
+		text-shadow: 0 0 20px rgb(10,240,240);
+	    }
+	
+	66% {
+		color: rgb(10,10,240);
+		text-shadow: 0 0 20px rgb(10,10,240);
+	    }
+	
+	83% {
+		color: rgb(240,10,240);
+		text-shadow: 0 0 20px rgb(240,10,240);
+	    }
+	    
+	100% {
+		color: rgb(240,10,10);
+		text-shadow: 0 0 20px rgb(240,10,10);
+	    }
+
+}
+
+
+@-webkit-keyframes color_want {
+	
+	
+	0% {
+		color: rgb(240,240,10);
+		text-shadow: 0 0 20px rgb(240,240,10);
+	    }
+	
+	17% {
+		color: rgb(10,240,10);
+		text-shadow: 0 0 20px rgb(10,240,10);
+	    }
+	
+	33% {
+		color: rgb(10,240,240);
+		text-shadow: 0 0 20px rgb(10,240,240);
+	    }
+	    
+	50% {
+		color: rgb(10,10,240);
+		text-shadow: 0 0 20px rgb(10,10,240);
+	    }
+	
+	66% {
+		color: rgb(240,10,240);
+		text-shadow: 0 0 20px rgb(240,10,240);
+	    }
+	
+	83% {
+		color: rgb(240,10,10);
+		text-shadow: 0 0 20px rgb(240,10,10);
+	    }
+	    
+	100% {
+		color: rgb(240,240,10);
+		text-shadow: 0 0 20px rgb(240,240,10);
+	    }
+
+}
+
+
+@-webkit-keyframes color_i {
+	
+	
+	0% {
+		color: rgb(10,240,10);
+		text-shadow: 0 0 20px rgb(10,240,10);
+	    }
+	
+	17% {
+		color: rgb(10,240,240);
+		text-shadow: 0 0 20px rgb(10,240,240);
+	    }
+	
+	33% {
+		color: rgb(10,10,240);
+		text-shadow: 0 0 20px rgb(10,10,240);
+	    }
+	    
+	50% {
+		color: rgb(240,10,240);
+		text-shadow: 0 0 20px rgb(240,10,240);
+	    }
+	
+	66% {
+		color: rgb(240,10,10);
+		text-shadow: 0 0 20px rgb(240,10,10);
+	    }
+	
+	83% {
+		color: rgb(240,240,10);
+		text-shadow: 0 0 20px rgb(240,240,10);
+	    }
+	    
+	100% {
+		color: rgb(10,240,10);
+		text-shadow: 0 0 20px rgb(10,240,10);
+	    }
+
+}
+
+
+h1 {
+    text-align: center;
+    width: 100%;
+    margin: 150px auto 0 auto;
+    font-size: 100px;
+    font-family: Ribbon;
+    text-transform: uppercase;
+    -webkit-animation-name: color;
+	-webkit-animation-duration: 3.0s;
+	-webkit-animation-iteration-count: infinite;
+	line-height: 150px;
+    }
+    
+h1 .i {
+    -webkit-animation-name: color_i;
+	-webkit-animation-duration: 3.0s;
+	-webkit-animation-iteration-count: infinite;
+    }
+    
+h1 .want {
+    -webkit-animation-name: color_want;
+	-webkit-animation-duration: 3.0s;
+	-webkit-animation-iteration-count: infinite;
+    }
+    
+h1 .candy {
+    -webkit-animation-name: color_candy;
+	-webkit-animation-duration: 3.0s;
+	-webkit-animation-iteration-count: infinite;
+    }
+
+
+/*" Standard "*/
+
+body {
+    background: rgb(10,10,10);
+    font-size: 12px;
+    line-height: 16px;
+    font-family: Georgia, sans-serif;
+    }
+      
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    }

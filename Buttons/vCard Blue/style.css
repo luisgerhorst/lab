@@ -1,0 +1,83 @@
+/* Allgemein */
+
+body {
+    background: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: Helvetica, "Helvetica Neue", sans-serif;
+    }
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    }
+    
+.wrapper {
+    margin: 200px auto 0 auto;
+    width: 70px;
+    height: 30px;
+    }
+    
+.vcard-download {
+    display: block;
+    width: 70px;
+    height: 30px;
+    background-image: -webkit-linear-gradient(left, rgba(45,125,210,0.3) 0%, rgba(115,195,250,0) 30%,  rgba(115,195,250,0) 70%, rgba(45,125,210,0.3) 100%), -webkit-linear-gradient(top, rgba(115,195,250,1) 0%, rgba(45,125,210,1.0) 100%);
+    box-shadow: inset 0 0 0 1px rgba(25,95,180,0.6), inset 0 2px rgba(120,200,255,0.9), inset 0 -2px rgba(35,115,200,0.2), inset 2px 0 rgba(115,195,250,0.2), inset -2px 0 rgba(115,195,250,0.2);
+    color: rgba(250,250,250,0.92);
+    text-shadow: 0 -1px rgb(58,138,223);
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    -webkit-box-reflect: below 0px -webkit-linear-gradient(top, rgba(255,255,255,0.0) 0%, rgba(255,255,255,0.2) 100%);
+    }
+    
+.vcard-download:hover {
+    background-image: -webkit-linear-gradient(left, rgba(45,125,210,0.3) 0%, rgba(135,215,255,0) 30%,  rgba(135,215,255,0) 70%, rgba(45,125,210,0.3) 100%), -webkit-linear-gradient(top, rgba(135,215,255,1) 0%, rgba(45,125,210,1.0) 100%);
+    box-shadow: inset 0 0 0 1px rgba(35,105,190,0.6), inset 0 2px rgba(130,210,255,0.9), inset 0 -2px rgba(45,125,210,0.2), inset 2px 0 rgba(125,205,255,0.2), inset -2px 0 rgba(125,205,255,0.2);
+    color: rgba(255,255,255,0.92);
+    text-shadow: 0 -1px rgb(68,148,233);
+    }
+    
+.vcard-download:active {
+    background-image: -webkit-linear-gradient(top, rgba(45,125,210,1) 0%, rgba(115,195,250,1) 100%);
+    box-shadow: inset 0 0 0 1px rgba(25,95,180,0.6), inset 0 2px 8px 2px rgba(10,20,40,0.2);
+    color: rgba(250,250,250,0.92);
+    text-shadow: 0 1px rgb(58,138,223);
+    }
+    
+/*#about-page .vcard-download {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 13px;
+    font-family: Helvetica, sans-serif;
+    color: rgba(250,250,250,0.92);
+    text-shadow: 0 -1px rgb(58,138,223);
+    text-decoration: none;
+    padding: 4px 7px 4px 7px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none !important;
+    border-radius: 4px;
+    background: rgb(70,150,223);
+    background: linear-gradient(top, rgb(95,175,230) 0%, rgb(50,130,215) 100%);
+    background: -webkit-linear-gradient(top, rgb(95,175,230) 0%, rgb(50,130,215) 100%);
+    background: -moz-linear-gradient(top, rgb(95,175,230) 0%, rgb(50,130,215) 100%);
+    background: -o-linear-gradient(top, rgb(95,175,230) 0%, rgb(50,130,215) 100%);
+    box-shadow: inset 0 0 0 1px rgba(35,105,190,0.6), inset 0 2px 0 0 rgb(102,182,237), inset 2px 0 0 0 rgba(105,185,240,0.1), inset -2px 0 0 0 rgba(105,185,240,0.1), inset 0 -2px 0 0 rgba(105,185,240,0.1);
+    -webkit-box-reflect: below 0px -webkit-linear-gradient(top, rgba(255,255,255,0.0) 0%, rgba(255,255,255,0.2) 100%);
+    }*/
+    
+#footer { 
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-shadow: none;
+    font-size: 11px;
+    line-height: 11px;
+    color: rgb(120,120,130);
+    }
