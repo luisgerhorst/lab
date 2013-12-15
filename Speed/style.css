@@ -57,6 +57,43 @@ body {
         left: 32px;
     }
 }
+
+.loading-improved {
+    margin-top: 100px;
+    position: relative;
+    height: 8px;
+    width: 8px;
+    border: 2px solid rgb(180,180,180);
+    background: rgb(200,200,200);
+    border-radius: 2px;
+    -webkit-animation-name: button-improved;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes 'button-improved' { /* added 13-12-15 */
+
+    0% {
+        left: 0;
+    }
+
+    10% {
+        left: 24px;
+    }
+
+    50% {
+        left: 32px;
+    }
+
+    60% {
+        left: 8px;
+    }
+
+    100% {
+        left: 0;
+    }
+
+}
     
 @-webkit-keyframes button_dis {
     
